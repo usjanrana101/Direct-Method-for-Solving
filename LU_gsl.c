@@ -71,7 +71,7 @@ int main()
     		LU[i][k]=0;
     		for ( j = 0; j < 3; j++)
     		{
-    			printf("%g  ",B[i][k]=B[i][k]+L[i][j]*U[j][k]); // multiplication rule of two matrix
+    			printf("%g  ",LU[i][k]=LU[i][k]+L[i][j]*U[j][k]); // multiplication rule of two matrix
     		}
     	}
     	printf("\n");
